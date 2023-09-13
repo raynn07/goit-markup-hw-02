@@ -1,0 +1,128 @@
+:root{
+    --selected:rgba(33, 150, 243, 1);
+    --not-selected:rgba(33, 33, 33, 1);
+    --light-gray:rgba(117, 117, 117, 1);
+    --white-text:rgba(255, 255, 255, 1);
+    --main-background:rgba(47, 48, 58, 1);
+    --footer-light-gray:rgba(255, 255, 255, 0.6);
+    --button-color-unselected:rgba(245, 244, 250, 1);
+}
+
+/* HEADER */
+.main-header .main-navigation address a{
+    color: var(--light-gray);
+}
+
+.main-header div{
+    font-family: "Raleway", sans-serif;
+    color: rgba(0, 0, 0, 1);
+}
+
+.main-header div span{
+    color: var(--selected);
+}
+
+.main-header a{
+    text-decoration: none;
+    color: var(--not-selected);
+}
+
+.main-header address {
+    font-style: normal;
+    color: var(--light-gray);
+    line-height: 16.41px;
+}
+
+.main-header ul a:hover{
+    color: var(--selected);
+}
+/* END HEADER */
+
+/* MAIN */
+
+.buttons-port{
+    border-radius: 4px;
+    background-color: var(--button-color-unselected);
+    color: var(--not-selected) ;
+    border-color: var(--button-color-unselected);
+    font-style: inherit;
+    line-height: 26px;
+}
+
+.buttons-port:hover,
+.buttons-port:focus{
+    background-color: var(--selected);
+    color: var(--white-text) ;
+    border-color: var(--selected);
+}
+
+.buttons-main{
+    border-radius: 4px;
+    background-color: var(--selected);
+    color: var(--white-text) ;
+    border-color: var(--selected);
+    font-style: inherit;
+    line-height: 30px;
+}
+
+.buttons-main:hover,
+.buttons-main:focus{
+    border-radius: 4px;
+    background-color: var(--button-color-unselected);
+    color: var(--not-selected) ;
+    border-color: var(--button-color-unselected);
+}
+
+.web-studio-main{
+    background-color:var(--main-background);
+}
+
+h1{
+    text-align: center;
+    color: var(--white-text);
+}
+
+.main-font{
+    font-family: "Roboto" , sans-serif;
+    color: var(--not-selected);
+}
+
+.main-paragraph p{
+    color: var(--light-gray);
+}
+
+.photo-cards span{
+    color: var(--light-gray);
+}
+
+/* END MAIN */
+
+/* FOOTER */
+.main-footer{
+    background-color: var(--main-background);
+    color: var(--white-text);
+}
+
+.main-footer div{
+    font-family: "Raleway", sans-serif;
+    color: var(--white-text);
+}
+.main-footer div span{
+    color: var(--selected);
+}
+
+.main-footer a{
+    text-decoration:none;
+    color: var(--white-text);
+}
+
+.main-footer address a{
+    color: var(--footer-light-gray);
+    font-style: normal;
+}
+
+.main-footer span{
+    font-style: normal;
+}
+
+/* END FOOTER */
