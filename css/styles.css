@@ -10,12 +10,25 @@
 
 /* HEADER */
 .main-header .main-navigation address a{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14 ;
+    letter-spacing: 0.02em;
+    text-align: left;
     color: var(--light-gray);
+    font-style: normal;
 }
 
 .main-header div{
     font-family: "Raleway", sans-serif;
     color: rgba(0, 0, 0, 1);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: left;
+
 }
 
 .main-header div span{
@@ -25,20 +38,25 @@
 .main-header a{
     text-decoration: none;
     color: var(--not-selected);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+
 }
 
-.main-header address {
-    font-style: normal;
-    color: var(--light-gray);
-    line-height: 16.41px;
-}
-
-.main-header ul a:hover{
+.main-header .main-navigation a:active{
     color: var(--selected);
 }
+
 /* END HEADER */
 
 /* MAIN */
+
+ul{
+    list-style-type: none;
+}
 
 .buttons-port{
     border-radius: 4px;
@@ -46,7 +64,12 @@
     color: var(--not-selected) ;
     border-color: var(--button-color-unselected);
     font-style: inherit;
-    line-height: 26px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    text-align: center;
+
 }
 
 .buttons-port:hover,
@@ -62,24 +85,49 @@
     color: var(--white-text) ;
     border-color: var(--selected);
     font-style: inherit;
-    line-height: 30px;
-}
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.85;
+    letter-spacing: 0.06em;
+    text-align: center;
+    cursor: pointer;
 
-.buttons-main:hover,
-.buttons-main:focus{
-    border-radius: 4px;
-    background-color: var(--button-color-unselected);
-    color: var(--not-selected) ;
-    border-color: var(--button-color-unselected);
 }
 
 .web-studio-main{
     background-color:var(--main-background);
+    
 }
 
 h1{
-    text-align: center;
     color: var(--white-text);
+    font-family: "Roboto";
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+}
+
+h2{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+
+h3{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: left;
+
 }
 
 .main-font{
@@ -87,11 +135,49 @@ h1{
     color: var(--not-selected);
 }
 
+
 .main-paragraph p{
     color: var(--light-gray);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+
 }
 
-.photo-cards span{
+.photo-cards-main span{
+    color: var(--light-gray);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.photo-cards-main p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+
+.photo-cards-port p{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+.photo-cards-port span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    text-align: left;
     color: var(--light-gray);
 }
 
@@ -104,8 +190,13 @@ h1{
 }
 
 .main-footer div{
-    font-family: "Raleway", sans-serif;
-    color: var(--white-text);
+    font-family: "Raleway" , sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
 }
 .main-footer div span{
     color: var(--selected);
@@ -117,11 +208,24 @@ h1{
 }
 
 .main-footer address a{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
     color: var(--footer-light-gray);
     font-style: normal;
 }
 
-.main-footer span{
+.main-footer address span{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--white-text);
     font-style: normal;
 }
 
