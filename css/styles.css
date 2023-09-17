@@ -6,6 +6,7 @@
     --main-background:rgba(47, 48, 58, 1);
     --footer-light-gray:rgba(255, 255, 255, 0.6);
     --button-color-unselected:rgba(245, 244, 250, 1);
+    --main-button-hover: rgba(24, 140, 232, 1);
 }
 
 /* HEADER */
@@ -46,7 +47,8 @@
 
 }
 
-.main-header .main-navigation a:active{
+.main-header .main-navigation a:hover,
+.main-header .main-navigation a:focus{
     color: var(--selected);
 }
 
@@ -69,6 +71,7 @@ ul{
     line-height: 1.62;
     letter-spacing: 0.03em;
     text-align: center;
+    border: 1px solid var(--button-color-unselected);
 
 }
 
@@ -91,7 +94,17 @@ ul{
     letter-spacing: 0.06em;
     text-align: center;
     cursor: pointer;
+    border: 1px solid var(--selected);
+    width: 200px;
+    height: 50px;
+    top: 430px;
+    left: 700px;
+}
 
+.buttons-main:hover{
+    background-color: var(--main-button-hover);
+    color: var(--white-text);
+    border: 1px solid var(--main-button-hover);
 }
 
 .web-studio-main{
@@ -179,6 +192,10 @@ h3{
     letter-spacing: 0.03em;
     text-align: left;
     color: var(--light-gray);
+}
+
+.main-navigation .current{
+    color: var(--selected);
 }
 
 /* END MAIN */
